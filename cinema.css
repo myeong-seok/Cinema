@@ -182,5 +182,6 @@ a {
     height: 16px;
     background-size: cover;
     margin-right: 2px;
-    vertical-align: middle;
+    vertical-align: top;
+    padding: 2px;
 }
