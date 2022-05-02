@@ -135,6 +135,18 @@ a {
     grid-column: 2/3;
 }
 
+.score .type::after {
+    content: '';
+    display: inline-block;
+    background: url(./img/Star\ 1.png);
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    margin:0 2px;
+    vertical-align: top;
+    padding: 1px;
+}
+
 .type {
     font-family: 'Noto Sans KR';
     font-style: normal;
